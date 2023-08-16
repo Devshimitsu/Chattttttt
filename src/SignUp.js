@@ -119,7 +119,7 @@ export default function SignUp() {
       <div className="flex max-w-si h-signUpHeight md:w-10/12 w-11/12 md:min-w-signUpMin max-w-maxSignUp rounded-lg overflow-hidden m-auto shadow-lg shadow-slate-600">
         <div className="relative justify-center items-center flex-1 hidden md:flex">
           <p className="absolute text-3xl z-50 font-bold text-blue-700 text-center">
-            Immerse Yourself in Interaction
+            
           </p>
           <img src={abstractBg} className="h-full w-full"></img>
         </div>
@@ -133,7 +133,7 @@ export default function SignUp() {
             Your name
           </p>
           <input
-            placeholder="Kebob Tan"
+            placeholder="devshimitsu"
             className="w-full rounded-lg h-9 bg-stone-900 mt-1 placeholder-neutral-500 pl-2 text-xs text-white outline-none border-neutral-600 border"
             onChange={(event) => {
               setUsername(event.target.value);
@@ -151,7 +151,7 @@ export default function SignUp() {
             Your email
           </p>
           <input
-            placeholder="kebob@gmail.com"
+            placeholder="devshimitsu@gmail.com"
             className="w-full rounded-lg h-9 bg-stone-900 mt-1 placeholder-neutral-500 pl-2 text-xs text-white outline-none border-neutral-600 border"
             onChange={(event) => {
               setEmail(event.target.value);
